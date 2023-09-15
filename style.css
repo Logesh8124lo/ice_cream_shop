@@ -1,0 +1,290 @@
+#parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 700px 50px 500px 50px 200px 180px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    #div1 { grid-area: 1 / 1 / 2 / 4; }
+    #div2 { grid-area: 2 / 1/ 3 / 4; background-color:  #ceaec9}
+    .div3 { grid-area: 3 / 1 / 4 / 2; background-color: #848986}
+    .div4 { grid-area: 3 / 2 / 4 / 3; background-color: #848986}
+    .div5 { grid-area: 3 / 3 / 4 / 4; background-color: #848986}
+    #div6 { grid-area: 4 / 1 / 5 / 4; background-color:#dab3b3}
+    .div7 { grid-area: 5 / 1 / 6 / 2;background-color: #a0a0aa; }
+    .div8 { grid-area: 5 / 2 / 6 / 3;background-color:#a0a0aa }
+    .div9 { grid-area: 5 / 3 / 6 / 4; background-color:#a0a0aa}
+    .div10 { grid-area: 6 / 1 / 7 / 4; background-color: #a0a0aa;}
+
+    #div1{
+      background-image: url(./HD-wallpaper-chocolate-ice-cream-close-up-sweets-ice-cream-balls-ice-cream.jpg);
+      border-radius:0px;
+      background-size: cover;
+     }
+    
+       
+       #div1 p{
+        font-size: 1cm;
+        color:blue;
+        font-weight: bold;
+        font-style: italic;
+        
+       }
+       #div1 h1{
+        padding-left: 20px;
+        color: #041d50;
+        font-size: 2cm;
+        padding-left: 40px;
+      
+       }
+      nav ul
+       {
+list-style: none;
+padding: 0;
+       }
+      nav ul li
+       {
+        display: inline;
+        margin-left: 20px;
+        font-size: x-large;
+       }
+       #parant nav ul li a
+       {
+        color: #c1d812;
+        margin-left: 50px;
+       }
+       #na{
+        font-size:200%;
+        color: #404040;
+        padding-left: 40px;
+        padding-top: 15px;
+       }
+      
+       #ph{
+        color:#ce3812;
+        padding-left: 40px;
+        top:20px;
+        font-size: 30px;
+       }
+       /*.but input{
+       margin-left: 50px;
+       font-size: 1cm;
+      border-radius: 10px;
+        
+        border:2px solid blue;
+       }
+        */
+        .but{
+          padding-left: 70px;
+        }
+        .but a{
+          text-decoration: none;
+          font-size: 1cm;
+          border: 2px solid transparent;
+          border-radius: 10px;
+          background-color: #6eec92;
+          padding-left: 10px;
+          padding-right: 10px;
+      
+        }
+        #div2
+        {
+          background-color: rgb(171, 62, 133);
+          will-change: 100%;
+        }
+        #div2 h2{
+            color: azure;
+            font-size:x-large;
+            font-weight: 1000;
+            text-align: center;
+        }
+        #div2{
+          background-image: url(wp2919277.jpg);
+          border-radius: 0px;
+          background-size: cover;
+        }
+        .div3{
+          background-image: url(Vanilla-Ice-Cream-cone-glass-sq.jpeg);
+          border-radius:0px;
+          background-size: cover;
+         }
+
+
+        .div3 table{
+            width: 400px;
+            height: 50px;
+            padding-left: 40px ;
+            
+          }
+          .div3 table tr{
+            font-size: .5cm;
+            
+            font-weight: bold;
+          }
+          .div3 table tr td{
+            padding-top: 20px;
+          }
+            .div3 h1{
+              text-align: center;
+            }
+            .div4{
+              background-image: url(One-Ingredient-Banana-Ice-Cream-clbv-master768.jpg);
+              border-radius:0px;
+              background-size: cover;
+             }
+
+            .div4 table{
+                width: 400px;
+                height: 50px;
+                padding-left: 40px ;
+                
+              }
+              .div4 table tr{
+                font-size: .5cm;
+                
+                font-weight: bold;
+              }
+              .div4 table tr td{
+                padding-top: 10px;
+              }
+                .div4 h1{
+                  text-align: center;
+                }
+                .div5{
+                  background-image: url(licensed-image.jpg);
+                  border-radius:0px;
+                  background-size: cover;
+                 }
+
+                .div5 table{
+                    width: 400px;
+                    height: 50px;
+                    padding-left: 40px ;
+                    
+                  }
+                  .div5 table tr{
+                    font-size: .5cm;
+                    
+                    font-weight: bold;
+                  }
+                  .div5 table tr td{
+                    padding-top: 10px;
+                  }
+                    .div5 h1{
+                      text-align: center;
+                    }
+                    #div6{
+                      background-image: url(wp2919277.jpg);
+                      border-radius: 0px;
+                      background-size: cover;
+                    }
+
+                    #div6 h3{
+                      color:azure
+                    }
+                    .div7{
+                      background-image: url(normal.jpg);
+                      background-size: cover;
+                    
+                     }
+                  
+
+                    .div7 h1
+                    {
+                      padding-left: 100px;
+
+                    }
+
+                    .div7 table tr td{
+                      padding-top: 30px;
+                    }
+                   .div7 p{
+                    padding-left: 100px;
+                    font-weight: bold;
+                    color:black
+                
+                   }
+                   .div8{
+                    background-image: url(normal.jpg);
+                    background-size: cover;
+                   }
+                   .div8 h1
+                   {
+                     padding-left: 100px;
+
+                   }
+
+                   .div8 table tr td{
+                    padding-top: 30px;
+                  }
+                   .div8 p{
+                    padding-left: 20px;
+                    font-weight: bold;
+                    color: rgb(11, 11, 11);
+
+                   }
+                   .div9{
+                    background-image: url(normal.jpg);
+              
+                    background-size: cover;
+                   }
+
+                   .div9 p{
+                    padding-left: 20px;
+                    font-weight:bold ;
+                    color: rgb(11, 11, 11);
+                   }
+                   
+                   .div9 table tr td{
+                    padding-top: 30px;
+                  }
+                   .div10{
+                    background-image: url(czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjcyMi1hdW0tMzFiXzFfMS5qcGc.webp);
+                    border-radius:4px;
+                    background-size: cover;
+                   }
+      
+
+
+                   .icons{
+                    display: flex;
+                    padding-left: 10px;
+                    margin-top: 20px;
+                   }
+                   .icons a{
+                    padding: 10px;
+                    background-color: white;
+                    margin: 10px;
+                    border-radius: 50px;
+                   }
+                   .icons a i{
+                    font-size: .5cm;
+                    opacity: 0.9;
+                   }
+                   .icons a:hover{
+                    background-color: black;
+                    transition: 0.5s;
+                   }
+                   .icons a i:hover{
+                    background-color: rgb(247, 245, 245);
+                    transition: 0.5s;
+                    border-radius: 50px;
+                   }
+                   .foot-bottom{
+                    display: flex;
+                    color: rgb(12, 6, 6);
+                    padding-left: 20px;
+                    margin-top: 5px;
+                   }
+                   .foot-bottom p{
+                    opacity: 0.5;
+                    cursor: pointer;
+                   }
+                   .foot-bottom p:hover{
+                    opacity: 1;
+                   }
+                   .fa-solid{
+                    padding-left: 20px;
+                    padding-bottom: 5px;
+                   }
